@@ -7,28 +7,45 @@
     <title>AI Poem Generator</title>
   </head>
   <body>
-    <header>
-      <h1>Welcome to the AI Poem Generator!</h1>
-    </header>
-    <main>
-      <form>
-        <input type="text" placeholder="Enter topic here" autofocus required />
-        <input type="submit" />
-      </form>
-      <br />
-    </main>
-    <footer>
-      This project was coded by
-      <a href="https://github.com/sumikarim" target="_blank">Sumaira Karim</a>
-      and is on
-      <a href="https://github.com/sumikarim/AI-Poem-Generator" target="_blank">
-        GitHub</a
-      >
-      and
-      <a href="https://sumairapoemgenerator.netlify.app/" target="_blank"
-        >hosted on Netlify</a
-      >.
-    </footer>
-    <script src="index.js"></script>
+    <div class="box">
+      <header>
+        <h1>Welcome to the AI Poem Generator!</h1>
+      </header>
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Enter topic here"
+            autofocus
+            required
+            class="poem-input"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
+        <br />
+        <div class="poem">
+          This is a poem<br />
+          This is also a poem
+        </div>
+        <br />
+      </main>
+
+      <footer>
+        This project was coded by
+        <a href="https://github.com/sumikarim" target="_blank">Sumaira Karim</a>
+        and is on
+        <a
+          href="https://github.com/sumikarim/AI-Poem-Generator"
+          target="_blank"
+        >
+          GitHub</a
+        >
+        and
+        <a href="https://sumairapoemgenerator.netlify.app/" target="_blank"
+          >hosted on Netlify</a
+        >.
+      </footer>
+      <script src="index.js"></script>
+    </div>
   </body>
 </html>
