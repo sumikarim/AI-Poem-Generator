@@ -51,6 +51,10 @@ h1 {
   padding: 20px;
 }
 
+.poem strong {
+  color: #b6cdbd;
+}
+
 footer {
   border-top: 1px solid #b6cdbd;
   padding: 15px 0 0 0;
